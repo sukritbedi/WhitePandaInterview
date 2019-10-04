@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Website design for task by White Panda for Campus Recruitment in VIT">
+    <meta name="keywords" content="WhitePanda, Sukrit, SukritBedi">
+    <meta name="author" content="Sukrit Bedi,sukritbedi1@gmail.com">
+    <title>WhitePanda Task | Sukrit Bedi</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="master.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <script type="text/javascript" src="angJs.js"></script>
+    <script src="https://kit.fontawesome.com/df7dc98398.js" crossorigin="anonymous"></script>
+  </head>
+  <body ng-app="myApp">
+    <div id="mainArea" class="containter">
+      <div class="row" style="padding-bottom:3%;">
+        <h2>Content Store</h2>
+      </div>
+      <div id="blueBox" class="row">
+        <span style="font-size:18px;">Got bulk orders or almost similar orders ? Fill the order breif in an excel sheet.</span>
+        <span class="textIt">If you're wondering about an easy way to place orders in large numbers, we provide a way customized just for that. Download our excel sheet and fill the order breif in the prescribed format and submit. In case you need any help, <u>we are just a click away to assist you in placeing your order</u></p>
+        <button type="button" class="btn btn-default">Order via Excel Sheet</button>
+      </div>
+      <div class="row" ng-controller="blockArea">
+        <div ng-repeat="item in data">
+          <div class="infoBox">
+            <div class="row">
+              <span>
+                <img src="thumbnail-peacock.jpg" alt="Thumbnail Logo">
+              </span>
+              <span class="upperText">
+                <span class="prodTitle">{{item.title}}</span><br>
+                <span class="prodCost">from &#8377;{{item.cost}}</span>
+              </span>
+            </div>
+            <div class="row">
+              <span class="prodText">{{item.description}}</span>
+            </div>
+            <div class="row">
+              <button type="button" class="btn btn-default">Order</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="social" align="center">
+        <div class="containter">
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+            </li>
+          </ul>
+          <br>
+          <p>Copyright @ 2019 White Panda Media Pvt. Ltd.
+          <p>All rights reserved
+          <p id="hyperLinks"><a href="#">Privacy policy</a> | <a href="#">Terms of service</a> | <a href="#">Service Agreement</a> | <a href="#">Contact us</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

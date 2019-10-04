@@ -1,0 +1,120 @@
+
+body{
+  font-family: 'Vollkorn', serif;
+  background-color: #7979790f;
+}
+
+#mainArea{
+  padding: 5% 8% 2%;
+}
+
+#blueBox{
+  padding: 20px;
+  background-color: #b6fff238;
+  color: #75b9b9;
+  border-radius: 5px;
+  transition: 0.8s;
+}
+
+#blueBox:hover{
+  box-shadow: 0 0 8px #000000;
+  transition: 0.8s;
+}
+
+.btn-default{
+    color: #75b9b9;
+    font-family: 'Open Sans', sans-serif;
+    background-color: transparent;
+    border: 1px solid #75b9b9;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.btn-default:hover{
+  color:#75b9b9;
+  border: 1px solid #75b9b9;
+  background-color: #47ff5e70;
+}
+
+.textIt{
+  font-size: 15px;
+  color: grey;
+}
+
+.infoBox{
+  height: 46vh;
+  background-color: white;
+  margin:15px;
+  width: 26.1vw;
+  padding:40px 30px;
+  border-radius: 5px;
+  transition: 0.8s;
+}
+
+.infoBox:hover{
+  box-shadow: 0 0 8px #000000;
+  transition: 0.8s;
+}
+
+span>img{
+  width:75px;
+  height: auto;
+  float: left;
+}
+
+.prodTitle{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.upperText{
+    margin: 0 12px;
+    color: #525252;
+    max-width: 220px;
+}
+
+.prodText{
+  text-align: left;
+  margin: 15px 0;
+  font-size: 15px;
+  color: grey;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+ul>li{
+  display: inline-block;
+  margin: 0 20px;
+}
+
+#social{
+  color: #80808094;
+  padding: 60px 0 0 0;
+}
+
+#hyperLinks>a{
+  padding:15px;
+}
+
+a>i{
+  color: grey;
+  transition: 0.6s;
+}
+
+#hyperLinks>a:link{
+  color: #80808094 !important;
+  text-decoration: underline;
+}
+
+#social>div>p,#social>div>ul{
+  margin-bottom: 0.2rem;
+}
+
+i:hover{
+  color:blue;
+  transition: 0.6s;
+}
